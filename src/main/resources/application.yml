@@ -2,5 +2,10 @@ security:
   user:
     name: hello
     password: 1234
-
+server:
+  error:
+    whitelabel:
+      enabled: false
+##mybatis:
+  ##type-handlers-package: com.sangsang.security.util
 

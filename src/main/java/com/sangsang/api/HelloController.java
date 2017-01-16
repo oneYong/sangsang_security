@@ -27,4 +27,11 @@ public class HelloController {
     public String hello2() throws Exception{
         return "Hello2 SangSang security";
     }
+
+    @RequestMapping(value="/error", method = RequestMethod.GET)
+    public String error() throws Exception{
+        return "error";
+    }
+
+
 }

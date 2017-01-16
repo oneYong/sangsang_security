@@ -13,10 +13,10 @@ public class AccountUser implements UserDetails{
     private String id;
     private String password;
     private String name;
-    private boolean isAccountNonExpired;
-    private boolean isAccountNonLocked;
-    private boolean isCredentialsNonExpired;
-    private boolean isEnabled;
+    private boolean isAccountNonExpired = true;
+    private boolean isAccountNonLocked = true;
+    private boolean isCredentialsNonExpired = true;
+    private boolean isEnabled = true;
     private Collection<? extends GrantedAuthority> authorities;
 
     @Override
